@@ -1,0 +1,39 @@
+{
+  "version": "0.3.0",
+  "release_date": "2026-02-28",
+  "changelog": [
+    "Timeline editável (drag, trim, split, delete)",
+    "Sistema de keyframes com 8 funções de easing",
+    "Multi-formato (9:16, 16:9, 1:1, 4:5, 4:3)",
+    "Painel de propriedades do clip (scale, pos, opacity, volume, rotation)",
+    "Controles de track (mute, solo, lock)",
+    "Keyframe diamonds na timeline",
+    "Trim handles nos clips",
+    "Atalhos: Space=play, B=split, Del=delete",
+    "API v2 com 10 endpoints de edição de timeline",
+    "Engine modular reestruturado (15 módulos)"
+  ],
+  "files": [
+    { "path": "desktop/src/App.tsx" },
+    { "path": "desktop/src/styles.css" },
+    { "path": "desktop/api_server.py" },
+    { "path": "engine/config.py" },
+    { "path": "engine/timeline_builder/__init__.py" },
+    { "path": "engine/timeline_builder/models.py" },
+    { "path": "engine/timeline_builder/builder.py" },
+    { "path": "engine/audio_analysis/__init__.py" },
+    { "path": "engine/speech_segmentation/__init__.py" },
+    { "path": "engine/semantic_cuts/__init__.py" },
+    { "path": "engine/face_tracking/__init__.py" },
+    { "path": "engine/reframing/__init__.py" },
+    { "path": "engine/zoom_engine_mod/__init__.py" },
+    { "path": "engine/subtitle_engine/__init__.py" },
+    { "path": "engine/insert_engine/__init__.py" },
+    { "path": "engine/learning_engine_mod/__init__.py" },
+    { "path": "engine/render_engine/__init__.py" },
+    { "path": "engine/config_manager/__init__.py" },
+    { "path": "engine/state_manager/__init__.py" },
+    { "path": "engine/utils/__init__.py" },
+    { "path": "engine/ingest/__init__.py" }
+  ]
+}
